@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *,
+    *::after,*::before{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    main{
+      display: flex;
+      align-items: center;
+      justify-content: center; /* eixo x */
+      height: 100vh;
+    }
+
+ .container{
+background-color: blue;
+display: flex;
+flex-direction: row;
+max-width: 1440px;
+
+ }
+
+ .container-result{
+background-color: aqua;
+border-radius: 0.4rem;
+display: flex;
+flex-direction: column;
+ }
+
+ .container-summary{
+background-color: aquamarine;
+ }
+
+  </style>
+</head>
+<body>
+   <main>
+    <section class="container">
+      <div class="container-result">
+        <h3>Your Result</h3>
+      
+        <div>
+              <span>76</span>
+              <p>of 100</p>
+        </div>
+       
+        <p>Great</p>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+    
+      </div>
+      <div class="container-summary">
+        <h3>Summary</h3>
+       
+        <div class="reaction">
+          <div>
+            <img src="" alt=""></img>
+            <p>Reaction</p>
+          </div>
+          <div>
+            <p><span>80</span> / 100</p>
+          </div>
+        </div>
+
+        <div class="memory">
+          <div>
+            <p>Memory</p>
+            
+          </div>
+          <div>
+            <p>92 / 100</p>
+          </div>
+         </div>
+
+        <div class="verbal">
+          <div>
+           <p>Verbal</p>
+          </div>
+
+          <div>
+            <p>61 / 100</p>
+          </div>
+        </div>
+
+        <div class="visual">
+          <div>
+            <p>Visual</p>
+             
+          </div>
+          <div>
+            <p>72 / 100</p>
+          </div>
+        </div>
+       
+      <button>Continue</button>
+        
+        
+      
+      
+      
+      
+       
+      </div>
+    </section>
+   </main>
+
+
+  
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
